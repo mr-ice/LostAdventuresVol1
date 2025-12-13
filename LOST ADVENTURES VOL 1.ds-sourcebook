@@ -1,0 +1,1351 @@
+{
+	"id": "LOSTADVENTURESVOL1SOURCEBOOK",
+	"name": "LOST ADVENTURES VOL 1 - NEW",
+	"description": "Content from Lost Adventures Vol 1 2025~",
+	"type": "Homebrew",
+	"adventures": [],
+	"ancestries": [],
+	"careers": [],
+	"classes": [],
+	"complications": [],
+	"cultures": [],
+	"domains": [],
+	"encounters": [],
+	"imbuements": [],
+	"items": [
+		{
+			"id": "FlAQa2PuMWAriaUJ",
+			"name": "Gloves of Climbing and Swimming",
+			"description": "These gloves give you a climb speed and swim speed equal to your normal speed.",
+			"type": "Trinket (1st echelon)",
+			"keywords": [
+				"Hands"
+			],
+			"crafting": null,
+			"effect": "",
+			"featuresByLevel": [
+				{
+					"level": 1,
+					"features": [
+						{
+							"id": "N90uhK5DPLlGeSLx",
+							"name": "Climb",
+							"description": "",
+							"type": "Movement Mode",
+							"data": {
+								"mode": "Climb"
+							}
+						},
+						{
+							"id": "EHTdnlqiq4J4OcEj",
+							"name": "Swim",
+							"description": "",
+							"type": "Movement Mode",
+							"data": {
+								"mode": "Swim"
+							}
+						}
+					]
+				},
+				{
+					"level": 5,
+					"features": []
+				},
+				{
+					"level": 9,
+					"features": []
+				}
+			],
+			"imbuements": [],
+			"count": 1,
+			"customizationsByLevel": []
+		},
+		{
+			"id": "SKNf88tJdxCSLH1t",
+			"name": "Healing Apple",
+			"description": "*From Wrath of the Iresouls*\n\nAn apple from the Nexarin Tree of Life. When you eat this apple as a maneuver, you regain Stamina equal to your recovery value without spending a Recovery.\n\n3 are gained as a reward when spending a Respite in Nexarin for 1 Hero.  These apples last until used or the Hero's next respite.",
+			"type": "Consumable (1st echelon)",
+			"keywords": [
+				"Magic"
+			],
+			"crafting": null,
+			"effect": "When you eat this apple as a maneuver, you regain Stamina equal to your recovery value without spending a Recovery.",
+			"featuresByLevel": [
+				{
+					"level": 1,
+					"features": []
+				},
+				{
+					"level": 5,
+					"features": []
+				},
+				{
+					"level": 9,
+					"features": []
+				}
+			],
+			"imbuements": [],
+			"count": 1,
+			"customizationsByLevel": []
+		},
+				{
+			"id": "item-healing-apple-community",
+			"name": "Healing Apple",
+			"description": "*From Wrath of the Iresouls*\n\nA crisp red apple that glows faintly with healing energy.",
+			"type": "Consumable (1st echelon)",
+			"keywords": ["Magic", "Potion"],
+			"crafting": {
+				"id": "item-healing-apple-community-crafting",
+				"name": "Craft Healing Apple",
+				"description": "Craft a Healing Apple.",
+				"itemPrerequisites": "A perfect apple, essence of healing",
+				"source": "Texts or lore in Caelian",
+				"characteristic": ["Reason", "Intuition"],
+				"goal": 45,
+				"isCustom": false,
+				"progress": null
+			},
+			"effect": "When you consume this apple as a maneuver, you regain Stamina equal to your recovery value without spending a Recovery. This apple disappears when used or at the start of your next respite.",
+			"featuresByLevel": [
+				{
+					"level": 1,
+					"features": []
+				},
+				{
+					"level": 5,
+					"features": []
+				},
+				{
+					"level": 9,
+					"features": []
+				}
+			],
+			"imbuements": [],
+			"count": 0,
+			"customizationsByLevel": []
+		},
+		{
+			"id": "5SdNc9324YnA8L2i",
+			"name": "Axe of Hurling",
+			"description": "This light axe can be used as a melee weapon or thrown to make a Ranged 3 attack.  It comes back to the wielder's hand after finishing the attack. (Imbuement: Hurling)",
+			"type": "Leveled Weapon",
+			"keywords": [
+				"Light Weapon"
+			],
+			"crafting": {
+				"id": "cTzKe6kGthrjJVgW",
+				"name": "",
+				"description": "",
+				"itemPrerequisites": "A magnet made from rare metals",
+				"source": "Text or Lore written In Variac.",
+				"characteristic": [
+					"Reason",
+					"Might",
+					"Agility"
+				],
+				"goal": 150,
+				"isCustom": false,
+				"progress": null
+			},
+			"effect": "",
+			"featuresByLevel": [
+				{
+					"level": 1,
+					"features": [
+						{
+							"id": "eJAyXBD2dws4tmL5",
+							"name": "Damage +1",
+							"description": "",
+							"type": "Ability Damage",
+							"data": {
+								"keywords": [],
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0,
+								"damageType": "Damage"
+							}
+						}
+					]
+				},
+				{
+					"level": 5,
+					"features": [
+						{
+							"id": "Vqfk5DysYDNdb4sh",
+							"name": "Damage +2",
+							"description": "",
+							"type": "Ability Damage",
+							"data": {
+								"keywords": [],
+								"value": 2,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0,
+								"damageType": "Damage"
+							}
+						}
+					]
+				},
+				{
+					"level": 9,
+					"features": [
+						{
+							"id": "wptEvrA9jhm0WE2H",
+							"name": "Damage +3",
+							"description": "",
+							"type": "Ability Damage",
+							"data": {
+								"keywords": [],
+								"value": 3,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0,
+								"damageType": "Damage"
+							}
+						}
+					]
+				}
+			],
+			"imbuements": [],
+			"count": 1,
+			"customizationsByLevel": []
+		},
+		{
+			"id": "item-charm-of-saint-venar",
+			"name": "Charm of Saint Venar",
+			"description": "*From Wrath of the Iresouls*\n\nA wooden necklace with a wolf's tooth attached by hardened tree sap.",
+			"type": "Consumable (2nd echelon)",
+			"keywords": ["Magic"],
+			"crafting": {
+				"id": "item-charm-of-saint-venar-crafting",
+				"name": "Craft Charm of Saint Venar",
+				"description": "Craft a Charm of Saint Venar.",
+				"itemPrerequisites": "A wolf's tooth, hardened tree sap from an ancient tree",
+				"source": "Texts or lore in Caelian",
+				"characteristic": ["Reason", "Presence"],
+				"goal": 90,
+				"isCustom": false,
+				"progress": null
+			},
+			"effect": "As a maneuver, you pray to Saint Venar, causing the charm to glow dimly until the end of the encounter. While the charm is glowing, you gain the following benefits: Your speed increases by 3, you gain a +5 bonus to distance for your ranged abilities, and when you deal damage to a creature more than 5 squares from you, you gain a surge which you can immediately spend. After this charm is used twice, its magic is expended.",
+			"featuresByLevel": [
+				{
+					"level": 1,
+					"features": [
+						{
+							"id": "item-charm-of-saint-venar-1",
+							"name": "",
+							"description": "",
+							"type": "Bonus",
+							"data": {
+								"field": "Speed",
+								"value": 3,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0
+							}
+						},
+						{
+							"id": "item-charm-of-saint-venar-1a",
+							"name": "",
+							"description": "",
+							"type": "Ability Distance",
+							"data": {
+								"keywords": ["Ranged"],
+								"value": 5,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0
+							}
+						},
+						{
+							"id": "item-charm-of-saint-venar-1b",
+							"name": "",
+							"description": "When you deal damage to a creature more than 5 squares from you, you gain a surge which you can immediately spend.",
+							"type": "Feature",
+							"data": {}
+						}
+					]
+				},
+				{
+					"level": 5,
+					"features": []
+				},
+				{
+					"level": 9,
+					"features": []
+				}
+			],
+			"imbuements": [],
+			"count": 0,
+			"customizationsByLevel": []
+		},
+		{
+			"id": "item-potion-of-web-slinging",
+			"name": "Potion of Web Slinging",
+			"description": "*From the Lost Adventures Vol 1 - 3d printed tabletop*\n\nA viscous potion that glimmers with silvery threads.",
+			"type": "Consumable (2nd echelon)",
+			"keywords": ["Magic", "Potion"],
+			"crafting": {
+				"id": "item-potion-of-web-slinging-crafting",
+				"name": "Craft Potion of Web Slinging",
+				"description": "Craft a Potion of Web Slinging.",
+				"itemPrerequisites": "Spider silk, essence of a web-spinner",
+				"source": "Texts or lore in Caelian",
+				"characteristic": ["Reason", "Intuition"],
+				"goal": 45,
+				"isCustom": false,
+				"progress": null
+			},
+			"effect": "For 1 hour or until used once, after drinking this potion the hero can sling a web up to 20 squares that must attach to a solid surface, then they are pulled along a straight line including vertically if they are size 1L or smaller. After reaching the attachment point the web disappears. If not on a stable horizontal surface the hero can make a hard Agility or Might test to grab on.",
+			"featuresByLevel": [
+				{
+					"level": 1,
+					"features": []
+				},
+				{
+					"level": 5,
+					"features": []
+				},
+				{
+					"level": 9,
+					"features": []
+				}
+			],
+			"imbuements": [],
+			"count": 0,
+			"customizationsByLevel": []
+		},
+		{
+			"id": "item-coin-of-steely-mind",
+			"name": "Coin of Steely Mind",
+			"description": "*From the Lost Adventures Vol 1 - 3d printed tabletop*\n\nA simple coin that seems to shimmer with an inner resolve.",
+			"type": "Trinket (1st echelon)",
+			"keywords": ["Magic"],
+			"crafting": {
+				"id": "item-coin-of-steely-mind-crafting",
+				"name": "Craft Coin of Steely Mind",
+				"description": "Craft a Coin of Steely Mind.",
+				"itemPrerequisites": "A coin that has been passed through many hands, steel filings",
+				"source": "Official court documents in Anjali",
+				"characteristic": ["Reason", "Presence"],
+				"goal": 100,
+				"isCustom": false,
+				"progress": null
+			},
+			"effect": "While this coin is on your person you succeed on saving throws against charm effects on a 5 or higher.",
+			"featuresByLevel": [
+				{
+					"level": 1,
+					"features": []
+				},
+				{
+					"level": 5,
+					"features": []
+				},
+				{
+					"level": 9,
+					"features": []
+				}
+			],
+			"imbuements": [],
+			"count": 0,
+			"customizationsByLevel": []
+		},
+		{
+			"id": "item-eyes-of-charming",
+			"name": "Eyes of Charming",
+			"description": "*From the Lost Adventures Vol 1 - 3d printed tabletop*\n\nThese crystal lenses fit over the eyes. They have 3 charges.",
+			"type": "Trinket (2nd echelon)",
+			"keywords": ["Head", "Magic"],
+			"crafting": {
+				"id": "item-eyes-of-charming-crafting",
+				"name": "Craft Eyes of Charming",
+				"description": "Craft Eyes of Charming.",
+				"itemPrerequisites": "Crystal lenses, essence of a charming creature",
+				"source": "Ancient Lore written in the First Language",
+				"characteristic": ["Reason", "Presence"],
+				"goal": 300,
+				"isCustom": false,
+				"progress": null
+			},
+			"effect": "While wearing them, you can expend 1 charge to cast charm person on a creature within 30 feet that you can see and that you share a common language with. The Eyes regain 1d3 expended charges when the wearer finishes a respite (max 3). A charmed creature treats the wearer of the eyes as their ally. The saving throw to resist this charm is harder by 1.",
+			"featuresByLevel": [
+				{
+					"level": 1,
+					"features": [
+						{
+							"id": "item-eyes-of-charming-1",
+							"name": "Charm Person",
+							"description": "You focus your gaze through the Eyes of Charming, attempting to charm a creature.",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "item-eyes-of-charming-1",
+									"name": "Charm Person",
+									"description": "You focus your gaze through the Eyes of Charming, attempting to charm a creature.",
+									"type": {
+										"type": "Maneuver",
+										"qualifiers": ["Expend 1 charge"],
+										"free": false
+									},
+									"keywords": ["Magic"],
+									"distance": [
+										{
+											"type": "Ranged",
+											"value": 6,
+											"value2": null,
+											"within": null,
+											"special": null
+										}
+									],
+									"target": "One creature you can see and share a common language with",
+									"cost": null,
+									"sections": [
+										{
+											"type": "Roll",
+											"data": {
+												"powerRoll": {
+													"characteristic": ["Reason"],
+													"tier1": "I<0 the target is charmed (save ends)",
+													"tier2": "I<1 the target is charmed (save ends)",
+													"tier3": "I<2 the target is charmed (save ends)"
+												}
+											}
+										},
+										{
+											"type": "Text",
+											"data": {
+												"text": "A charmed creature treats the wearer of the eyes as their ally. The saving throw to resist this charm is harder by 1."
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"level": 5,
+					"features": []
+				},
+				{
+					"level": 9,
+					"features": []
+				}
+			],
+			"imbuements": [],
+			"count": 0,
+			"customizationsByLevel": []
+		},
+		{
+			"id": "item-figurine-of-wondrous-power",
+			"name": "Figurine of Wondrous Power - Brown Bear",
+			"description": "*From the Lost Adventures Vol 1 - 3d printed tabletop*\n\nA figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. This smoky quartz figurine depicts a bear.",
+			"type": "Trinket (2nd echelon)",
+			"keywords": ["Magic"],
+			"crafting": {
+				"id": "item-figurine-of-wondrous-power-crafting",
+				"name": "Craft Figurine of Wondrous Power - Brown Bear",
+				"description": "Craft a Figurine of Wondrous Power - Brown Bear.",
+				"itemPrerequisites": "A smoky quartz statuette carved in the shape of a bear, essence of a wild bear",
+				"source": "Texts or lore in Caelian",
+				"characteristic": ["Reason", "Presence"],
+				"goal": 300,
+				"isCustom": false,
+				"progress": null
+			},
+			"effect": "If you use a main action to speak the command word and throw the figurine to a point on the ground within 12 squares of you, the figurine becomes a living bear. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.\n\nThe bear is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the bear defends itself but takes no other actions. The bear acts as a follower while it exists.\n\nThe bear exists for 1 minute (10 combat rounds). At the end of the duration, the bear reverts to its figurine form. It reverts to a figurine early if it drops to 0 Stamina or if you use a main action to speak the command word again while touching it.\n\nWhen the creature becomes a figurine again, its property can't be used again until the next dawn.\n\n**Bear Statistics:**\n* **Level 1 Elite Brute** (EV 12)\n* **Size 2** | **Speed 5** | **Stamina 80** | **Stability 0** | **Free Strike 5**\n* **Ability Scores:** Might +1, Agility +2, Reason -2, Intuition +1, Presence +1\n* **Natural Weapon** (Signature, Main action): Melee Strike Weapon, Melee 1, Two creatures or objects\n  * ≤11: 7 damage\n  * 12-16: 10 damage; M<1 prone\n  * 17+: 13 damage; M<1 prone\n* **Ready to Strike** (Maneuver, Self): The bear assesses their environment or lets loose a threatening roar and gains an edge on their next strike.\n* **Quick Strike** (Triggered action): Melee Strike Weapon, Melee 1. Trigger: A creature or object comes within distance. Effect: The bear makes a free strike against the target. If the bear was hidden from the target, the strike deals an extra 3 damage.\n* **Nature's Spirit**: While outdoors or in a natural environment, the bear can negate a bane on their abilities or turn a double bane into a bane.\n* **Climbing (1 Point)**: The bear can automatically climb at full speed while moving.\n* **Unrelenting (2 Points)**: Once per combat, when the bear is reduced to 0 Stamina, they can choose to either remain alive with 1 Stamina or immediately move up to their speed and make a free strike before dying.",
+			"featuresByLevel": [
+				{
+					"level": 1,
+					"features": [
+						{
+							"id": "item-figurine-of-wondrous-power-1",
+							"name": "Summon Bear",
+							"description": "You speak the command word and throw the figurine, causing it to transform into a living bear.",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "item-figurine-of-wondrous-power-1",
+									"name": "Summon Bear",
+									"description": "You speak the command word and throw the figurine, causing it to transform into a living bear.",
+									"type": {
+										"type": "Main",
+										"qualifiers": [],
+										"free": false
+									},
+									"keywords": ["Magic"],
+									"distance": [
+										{
+											"type": "Ranged",
+											"value": 12,
+											"value2": null,
+											"within": null,
+											"special": null
+										}
+									],
+									"target": "One unoccupied space within range",
+									"cost": null,
+									"sections": [
+										{
+											"type": "Text",
+											"data": {
+												"text": "The figurine becomes a living bear in the target space. The bear is friendly to you and your companions, understands your languages, and obeys your spoken commands. If you issue no commands, the bear defends itself but takes no other actions. The bear acts as a follower while it exists. The bear exists for 1 minute (10 combat rounds), then reverts to its figurine form. It reverts early if it drops to 0 Stamina or if you use a main action to speak the command word again while touching it. Once used, the figurine can't be used again until the next dawn."
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"level": 5,
+					"features": []
+				},
+				{
+					"level": 9,
+					"features": []
+				}
+			],
+			"imbuements": [],
+			"count": 0,
+			"customizationsByLevel": []
+		},
+		{
+			"id": "item-iron-ring",
+			"name": "Iron Ring",
+			"description": "*From the Lost Adventures Vol 1 - 3d printed tabletop*\n\nThis ring depicts a bat upon a tree, the insignia of Dorian Morkoth's minor noble house. While nonmagical, wearing this ring grants advantage on Charisma (Persuasion) checks when dealing with nobles, but subjects the wearer to disadvantage on Charisma (Persuasion) checks when dealing with common folk.",
+			"type": "Trinket (1st echelon)",
+			"keywords": ["Ring"],
+			"crafting": {
+				"id": "item-iron-ring-crafting",
+				"name": "Craft Iron Ring",
+				"description": "Craft an Iron Ring.",
+				"itemPrerequisites": "An iron ring, knowledge of noble house insignias",
+				"source": "Texts or lore in Caelian",
+				"characteristic": ["Reason", "Presence"],
+				"goal": 100,
+				"isCustom": false,
+				"progress": null
+			},
+			"effect": "While wearing this ring, you gain an edge on Presence tests made to persuade nobles, but you take a bane on Presence tests made to persuade common folk.",
+			"featuresByLevel": [
+				{
+					"level": 1,
+					"features": []
+				},
+				{
+					"level": 5,
+					"features": []
+				},
+				{
+					"level": 9,
+					"features": []
+				}
+			],
+			"imbuements": [],
+			"count": 0,
+			"customizationsByLevel": []
+		},
+		{
+			"id": "item-gloves-of-climbing-and-swimming-community",
+			"name": "Gloves of Climbing and Swimming",
+			"description": "*From the Lost Adventures Vol 1 - 3d printed tabletop*\n\nThese supple leather gloves enhance the wearer's ability to climb and swim.",
+			"type": "Trinket (1st echelon)",
+			"keywords": ["Hands", "Magic"],
+			"crafting": {
+				"id": "item-gloves-of-climbing-and-swimming-community-crafting",
+				"name": "Craft Gloves of Climbing and Swimming",
+				"description": "Craft Gloves of Climbing and Swimming.",
+				"itemPrerequisites": "Leather gloves, essence of a mountain goat and a dolphin",
+				"source": "Texts or lore in Caelian",
+				"characteristic": ["Agility", "Might"],
+				"goal": 100,
+				"isCustom": false,
+				"progress": null
+			},
+			"effect": "While wearing these gloves, you gain the swim and climb speeds but no other benefits like water breathing or fighting while climbing.",
+			"featuresByLevel": [
+				{
+					"level": 1,
+					"features": []
+				},
+				{
+					"level": 5,
+					"features": []
+				},
+				{
+					"level": 9,
+					"features": []
+				}
+			],
+			"imbuements": [],
+			"count": 0,
+			"customizationsByLevel": []
+		},
+		{
+			"id": "item-diadem-of-charisma",
+			"name": "Diadem of Charisma",
+			"description": "*From the Lost Adventures Vol 1 - 3d printed tabletop*\n\nAn elegant diadem that seems to enhance the wearer's natural charm and presence.",
+			"type": "Leveled Implement",
+			"keywords": ["Implement", "Magic"],
+			"crafting": {
+				"id": "item-diadem-of-charisma-crafting",
+				"name": "Craft Diadem of Charisma",
+				"description": "Craft a Diadem of Charisma.",
+				"itemPrerequisites": "A diadem or crown, essence of a charismatic leader",
+				"source": "Texts or lore in Caelian",
+				"characteristic": ["Reason", "Presence"],
+				"goal": 450,
+				"isCustom": false,
+				"progress": null
+			},
+			"effect": "",
+			"featuresByLevel": [
+				{
+					"level": 1,
+					"features": [
+						{
+							"id": "item-diadem-of-charisma-1a",
+							"name": "",
+							"description": "",
+							"type": "Ability Damage",
+							"data": {
+								"keywords": ["Magic"],
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0,
+								"damageType": "Damage"
+							}
+						},
+						{
+							"id": "item-diadem-of-charisma-1b",
+							"name": "",
+							"description": "",
+							"type": "Ability Damage",
+							"data": {
+								"keywords": ["Psionic"],
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0,
+								"damageType": "Damage"
+							}
+						},
+						{
+							"id": "item-diadem-of-charisma-1c",
+							"name": "Presence Enhancement I",
+							"description": "While wearing this diadem, you gain a +1 bonus to your Presence ability score.",
+							"type": "Characteristic Bonus",
+							"data": {
+								"characteristic": "Presence",
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0
+							}
+						}
+					]
+				},
+				{
+					"level": 5,
+					"features": [
+						{
+							"id": "item-diadem-of-charisma-5a",
+							"name": "",
+							"description": "",
+							"type": "Ability Damage",
+							"data": {
+								"keywords": ["Magic"],
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0,
+								"damageType": "Damage"
+							}
+						},
+						{
+							"id": "item-diadem-of-charisma-5b",
+							"name": "",
+							"description": "",
+							"type": "Ability Damage",
+							"data": {
+								"keywords": ["Psionic"],
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0,
+								"damageType": "Damage"
+							}
+						},
+						{
+							"id": "item-diadem-of-charisma-5c",
+							"name": "Presence Enhancement II",
+							"description": "Your Presence ability score increases by 1 (Total +2 bonus to Presence).",
+							"type": "Characteristic Bonus",
+							"data": {
+								"characteristic": "Presence",
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0
+							}
+						},
+						{
+							"id": "item-diadem-of-charisma-5d",
+							"name": "Awe of Charm",
+							"description": "You gain an Edge (+2 bonus) on Presence tests made to win other creatures over or make a good impression. This generally applies to interpersonal actions using skills like Persuade or Flirt.",
+							"type": "Feature",
+							"data": {}
+						}
+					]
+				},
+				{
+					"level": 9,
+					"features": [
+						{
+							"id": "item-diadem-of-charisma-9a",
+							"name": "",
+							"description": "",
+							"type": "Ability Damage",
+							"data": {
+								"keywords": ["Magic"],
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0,
+								"damageType": "Damage"
+							}
+						},
+						{
+							"id": "item-diadem-of-charisma-9b",
+							"name": "",
+							"description": "",
+							"type": "Ability Damage",
+							"data": {
+								"keywords": ["Psionic"],
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0,
+								"damageType": "Damage"
+							}
+						},
+						{
+							"id": "item-diadem-of-charisma-9c",
+							"name": "Presence Enhancement III",
+							"description": "Your Presence ability score increases by 1 (Total +3 bonus to Presence).",
+							"type": "Characteristic Bonus",
+							"data": {
+								"characteristic": "Presence",
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0
+							}
+						},
+						{
+							"id": "item-diadem-of-charisma-9d",
+							"name": "Ultimate Charisma",
+							"description": "You have a Double Edge on all Presence tests made to influence other creatures.",
+							"type": "Feature",
+							"data": {}
+						}
+					]
+				}
+			],
+			"imbuements": [],
+			"count": 0,
+			"customizationsByLevel": []
+		},
+		{
+			"id": "item-void-amulet",
+			"name": "Void Amulet",
+			"description": "*From Wrath of the Iresouls*\n\nLeft behind by a wicked elementalist, its wearer can feel the space around them stretch and contract at their whim.",
+			"type": "Leveled Implement",
+			"keywords": ["Implement", "Magic", "Void"],
+			"crafting": {
+				"id": "item-void-amulet-crafting",
+				"name": "Craft Void Amulet",
+				"description": "Craft a Void Amulet.",
+				"itemPrerequisites": "A meteorite of another world infused with void magic",
+				"source": "Texts in Urollialic",
+				"characteristic": ["Reason", "Intuition", "Presence"],
+				"goal": 450,
+				"isCustom": false,
+				"progress": null
+			},
+			"effect": "",
+			"featuresByLevel": [
+				{
+					"level": 1,
+					"features": [
+						{
+							"id": "item-void-amulet-1",
+							"name": "",
+							"description": "Your magic and psionic abilities ignore cover and concealment.",
+							"type": "Feature",
+							"data": {}
+						},
+						{
+							"id": "item-void-amulet-1a",
+							"name": "",
+							"description": "",
+							"type": "Ability Distance",
+							"data": {
+								"keywords": ["Magic", "Area"],
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0
+							}
+						},
+						{
+							"id": "item-void-amulet-1b",
+							"name": "",
+							"description": "",
+							"type": "Ability Distance",
+							"data": {
+								"keywords": ["Psionic", "Area"],
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0
+							}
+						}
+					]
+				},
+				{
+					"level": 5,
+					"features": [
+						{
+							"id": "item-void-amulet-5",
+							"name": "",
+							"description": "At the start of your turn, you can teleport 2 squares (no action required).",
+							"type": "Feature",
+							"data": {}
+						},
+						{
+							"id": "item-void-amulet-5a",
+							"name": "",
+							"description": "",
+							"type": "Ability Distance",
+							"data": {
+								"keywords": ["Magic", "Area"],
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0
+							}
+						},
+						{
+							"id": "item-void-amulet-5b",
+							"name": "",
+							"description": "",
+							"type": "Ability Distance",
+							"data": {
+								"keywords": ["Psionic", "Area"],
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0
+							}
+						}
+					]
+				},
+				{
+					"level": 9,
+					"features": [
+						{
+							"id": "item-void-amulet-9",
+							"name": "",
+							"description": "The distance you can teleport at the start of your turn increases to 5 squares. Additionally, you can see through all mundane objects and always have line of effect to a creature or square.",
+							"type": "Feature",
+							"data": {}
+						},
+						{
+							"id": "item-void-amulet-9a",
+							"name": "",
+							"description": "",
+							"type": "Ability Distance",
+							"data": {
+								"keywords": ["Magic", "Area"],
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0
+							}
+						},
+						{
+							"id": "item-void-amulet-9b",
+							"name": "",
+							"description": "",
+							"type": "Ability Distance",
+							"data": {
+								"keywords": ["Psionic", "Area"],
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0
+							}
+						}
+					]
+				}
+			],
+			"imbuements": [],
+			"count": 0,
+			"customizationsByLevel": []
+		},
+		{
+			"id": "item-web-of-forms",
+			"name": "Web of Forms",
+			"description": "*From the Lost Adventures Vol 1 - 3d printed tabletop*\n\nA wand carved from spider silk and hardened resin, pulsing with arachnid energy.",
+			"type": "Leveled Implement",
+			"keywords": ["Implement", "Magic", "Psionic", "Wand"],
+			"crafting": {
+				"id": "item-web-of-forms-crafting",
+				"name": "Craft Web of Forms",
+				"description": "Craft a Web of Forms.",
+				"itemPrerequisites": "Spider silk from a giant spider, resin from a web tree",
+				"source": "Texts or lore in Caelian",
+				"characteristic": ["Reason", "Intuition"],
+				"goal": 450,
+				"isCustom": false,
+				"progress": null
+			},
+			"effect": "",
+			"featuresByLevel": [
+				{
+					"level": 1,
+					"features": [
+						{
+							"id": "item-web-of-forms-1a",
+							"name": "",
+							"description": "",
+							"type": "Ability Damage",
+							"data": {
+								"keywords": ["Magic"],
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0,
+								"damageType": "Damage"
+							}
+						},
+						{
+							"id": "item-web-of-forms-1b",
+							"name": "",
+							"description": "",
+							"type": "Ability Damage",
+							"data": {
+								"keywords": ["Psionic"],
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0,
+								"damageType": "Damage"
+							}
+						},
+						{
+							"id": "item-web-of-forms-1c",
+							"name": "Spider Stride",
+							"description": "You gain the ability to climb like a spider.",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "item-web-of-forms-1c",
+									"name": "Spider Stride",
+									"description": "You gain the ability to climb like a spider.",
+									"type": {
+										"type": "Maneuver",
+										"qualifiers": [],
+										"free": false
+									},
+									"keywords": ["Magic"],
+									"distance": [
+										{
+											"type": "Self",
+											"value": null,
+											"value2": null,
+											"within": null,
+											"special": null
+										}
+									],
+									"target": "Self",
+									"cost": null,
+									"sections": [
+										{
+											"type": "Text",
+											"data": {
+												"text": "You gain Spider Climb until the end of the encounter or willingly dismissed (no action required)."
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": "item-web-of-forms-1d",
+							"name": "Polymorph Giant Spider",
+							"description": "You transform a creature into a giant spider.",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "item-web-of-forms-1d",
+									"name": "Polymorph Giant Spider",
+									"description": "You transform a creature into a giant spider.",
+									"type": {
+										"type": "Main",
+										"qualifiers": [],
+										"free": false
+									},
+									"keywords": ["Strike", "Magic", "Psionic"],
+									"distance": [
+										{
+											"type": "Ranged",
+											"value": 10,
+											"value2": null,
+											"within": null,
+											"special": null
+										}
+									],
+									"target": "One creature",
+									"cost": 5,
+									"sections": [
+										{
+											"type": "Roll",
+											"data": {
+												"powerRoll": {
+													"characteristic": ["Might", "Agility", "Reason", "Intuition", "Presence"],
+													"tier1": "The target takes 3 psychic damage",
+													"tier2": "The target takes 5 psychic damage",
+													"tier3": "The target is transformed into a giant spider (Save Ends)"
+												}
+											}
+										},
+										{
+											"type": "Text",
+											"data": {
+												"text": "The target's game statistics are replaced by that of a Giant Spider. They can't talk but can understand languages they knew before transforming. All items are transformed with them and cannot be used until the transformation is reversed."
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"level": 5,
+					"features": [
+						{
+							"id": "item-web-of-forms-5a",
+							"name": "",
+							"description": "",
+							"type": "Ability Damage",
+							"data": {
+								"keywords": ["Magic"],
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0,
+								"damageType": "Damage"
+							}
+						},
+						{
+							"id": "item-web-of-forms-5b",
+							"name": "",
+							"description": "",
+							"type": "Ability Damage",
+							"data": {
+								"keywords": ["Psionic"],
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0,
+								"damageType": "Damage"
+							}
+						},
+						{
+							"id": "item-web-of-forms-5c",
+							"name": "Throw Arachnid",
+							"description": "You hurl a web-wrapped projectile at your enemies.",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "item-web-of-forms-5c",
+									"name": "Throw Arachnid",
+									"description": "You hurl a web-wrapped projectile at your enemies.",
+									"type": {
+										"type": "Main",
+										"qualifiers": [],
+										"free": false
+									},
+									"keywords": ["Ranged", "Strike"],
+									"distance": [
+										{
+											"type": "Ranged",
+											"value": 10,
+											"value2": null,
+											"within": null,
+											"special": null
+										}
+									],
+									"target": "One or Two creatures",
+									"cost": 3,
+									"sections": [
+										{
+											"type": "Roll",
+											"data": {
+												"powerRoll": {
+													"characteristic": ["Might", "Agility", "Reason", "Intuition", "Presence"],
+													"tier1": "7 Corruption Damage; The target is bleeding (EoT)",
+													"tier2": "9 Corruption Damage; The target is bleeding (Save Ends)",
+													"tier3": "12 Corruption Damage; The target is bleeding and weakened (Save Ends)"
+												}
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": "item-web-of-forms-5d",
+							"name": "Entangling Web",
+							"description": "You create a web that entangles your enemies.",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "item-web-of-forms-5d",
+									"name": "Entangling Web",
+									"description": "You create a web that entangles your enemies.",
+									"type": {
+										"type": "Main",
+										"qualifiers": [],
+										"free": false
+									},
+									"keywords": ["Area", "Magic", "Psionic"],
+									"distance": [
+										{
+											"type": "Burst",
+											"value": 3,
+											"value2": null,
+											"within": 5,
+											"special": null
+										}
+									],
+									"target": "Each enemy in burst",
+									"cost": 5,
+									"sections": [
+										{
+											"type": "Roll",
+											"data": {
+												"powerRoll": {
+													"characteristic": ["Might", "Agility", "Reason", "Intuition", "Presence"],
+													"tier1": "M<weak slow (save ends)",
+													"tier2": "M<avg slow and restrained (EoT)",
+													"tier3": "M<strong slow and restrained (save ends)"
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"level": 9,
+					"features": [
+						{
+							"id": "item-web-of-forms-9a",
+							"name": "",
+							"description": "",
+							"type": "Ability Damage",
+							"data": {
+								"keywords": ["Magic"],
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0,
+								"damageType": "Damage"
+							}
+						},
+						{
+							"id": "item-web-of-forms-9b",
+							"name": "",
+							"description": "",
+							"type": "Ability Damage",
+							"data": {
+								"keywords": ["Psionic"],
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0,
+								"damageType": "Damage"
+							}
+						},
+						{
+							"id": "item-web-of-forms-9c",
+							"name": "Web Slinger Leap",
+							"description": "You cast a web and teleport to your destination.",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "item-web-of-forms-9c",
+									"name": "Web Slinger Leap",
+									"description": "You cast a web and teleport to your destination.",
+									"type": {
+										"type": "Move",
+										"qualifiers": [],
+										"free": false
+									},
+									"keywords": ["Psionic"],
+									"distance": [
+										{
+											"type": "Self",
+											"value": null,
+											"value2": null,
+											"within": null,
+											"special": null
+										}
+									],
+									"target": "Self",
+									"cost": 2,
+									"sections": [
+										{
+											"type": "Text",
+											"data": {
+												"text": "You cast a string of web to a solid surface within 15 squares and teleport to the destination. If the surface was vertical you are climbing, if a ceiling you fall unless you can climb on ceilings. Pay 4HR instead to use this as a free maneuver once per turn."
+											}
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": "item-web-of-forms-9d",
+							"name": "Venomous Weakness",
+							"description": "You strike with venomous energy that weakens your target.",
+							"type": "Ability",
+							"data": {
+								"ability": {
+									"id": "item-web-of-forms-9d",
+									"name": "Venomous Weakness",
+									"description": "You strike with venomous energy that weakens your target.",
+									"type": {
+										"type": "Main",
+										"qualifiers": [],
+										"free": false
+									},
+									"keywords": ["Ranged", "Magic", "Psionic", "Strike"],
+									"distance": [
+										{
+											"type": "Ranged",
+											"value": 10,
+											"value2": null,
+											"within": null,
+											"special": null
+										}
+									],
+									"target": "One creature",
+									"cost": 7,
+									"sections": [
+										{
+											"type": "Roll",
+											"data": {
+												"powerRoll": {
+													"characteristic": ["Might", "Agility", "Reason", "Intuition", "Presence"],
+													"tier1": "17 Poison Damage; R<weak weakened (save ends)",
+													"tier2": "22 Poison Damage; R<avg weakened (save ends)",
+													"tier3": "27 Poison Damage; R<strong weakened and dazed (save ends)"
+												}
+											}
+										},
+										{
+											"type": "Text",
+											"data": {
+												"text": "If the target is weakened they take a bane on all power rolls targeting any spider creatures until the effect ends."
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				}
+			],
+			"imbuements": [],
+			"count": 0,
+			"customizationsByLevel": []
+		}
+	],
+	"kits": [],
+	"monsterGroups": [],
+	"montages": [],
+	"negotiations": [],
+	"perks": [],
+	"projects": [],
+	"subclasses": [],
+	"tacticalMaps": [],
+	"terrain": [],
+	"titles": [],
+	"skills": [],
+	"languages": []
+}
