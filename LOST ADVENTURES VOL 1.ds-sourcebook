@@ -1,7 +1,7 @@
 {
 	"id": "LOSTADVENTURESVOL1SOURCEBOOK",
-	"name": "LOST ADVENTURES VOL 1 - NEW",
-	"description": "Content from Lost Adventures Vol 1 2025~",
+	"name": "LOST ADVENTURES VOL 1",
+	"description": "",
 	"type": "Homebrew",
 	"adventures": [],
 	"ancestries": [],
@@ -63,7 +63,7 @@
 		{
 			"id": "SKNf88tJdxCSLH1t",
 			"name": "Healing Apple",
-			"description": "*From Wrath of the Iresouls*\n\nAn apple from the Nexarin Tree of Life. When you eat this apple as a maneuver, you regain Stamina equal to your recovery value without spending a Recovery.\n\n3 are gained as a reward when spending a Respite in Nexarin for 1 Hero.  These apples last until used or the Hero's next respite.",
+			"description": "*From Wrath of the Iresouls*\n\nAn apple from the Nexarin Tree of Life. When you eat this apple as a maneuver, you regain Stamina equal to your recovery value without spending a Recovery.\n\nThese apples are gained as a reward when spending a Respite in Nexarin for 1 Hero.  These apples last until used or the Hero's next respite.",
 			"type": "Consumable (1st echelon)",
 			"keywords": [
 				"Magic"
@@ -86,42 +86,6 @@
 			],
 			"imbuements": [],
 			"count": 1,
-			"customizationsByLevel": []
-		},
-				{
-			"id": "item-healing-apple-community",
-			"name": "Healing Apple",
-			"description": "*From Wrath of the Iresouls*\n\nA crisp red apple that glows faintly with healing energy.",
-			"type": "Consumable (1st echelon)",
-			"keywords": ["Magic", "Potion"],
-			"crafting": {
-				"id": "item-healing-apple-community-crafting",
-				"name": "Craft Healing Apple",
-				"description": "Craft a Healing Apple.",
-				"itemPrerequisites": "A perfect apple, essence of healing",
-				"source": "Texts or lore in Caelian",
-				"characteristic": ["Reason", "Intuition"],
-				"goal": 45,
-				"isCustom": false,
-				"progress": null
-			},
-			"effect": "When you consume this apple as a maneuver, you regain Stamina equal to your recovery value without spending a Recovery. This apple disappears when used or at the start of your next respite.",
-			"featuresByLevel": [
-				{
-					"level": 1,
-					"features": []
-				},
-				{
-					"level": 5,
-					"features": []
-				},
-				{
-					"level": 9,
-					"features": []
-				}
-			],
-			"imbuements": [],
-			"count": 0,
 			"customizationsByLevel": []
 		},
 		{
@@ -364,6 +328,42 @@
 			"customizationsByLevel": []
 		},
 		{
+			"id": "item-iron-ring",
+			"name": "Iron Ring",
+			"description": "*From the Lost Adventures Vol 1 - 3d printed tabletop*\n\nThis ring depicts a bat upon a tree, the insignia of Dorian Morkoth's minor noble house. While nonmagical, wearing this ring grants advantage on Charisma (Persuasion) checks when dealing with nobles, but subjects the wearer to disadvantage on Charisma (Persuasion) checks when dealing with common folk.",
+			"type": "Trinket (1st echelon)",
+			"keywords": ["Ring"],
+			"crafting": {
+				"id": "item-iron-ring-crafting",
+				"name": "Craft Iron Ring",
+				"description": "Craft an Iron Ring.",
+				"itemPrerequisites": "An iron ring, knowledge of noble house insignias",
+				"source": "Texts or lore in Caelian",
+				"characteristic": ["Reason", "Presence"],
+				"goal": 100,
+				"isCustom": false,
+				"progress": null
+			},
+			"effect": "While wearing this ring, you gain an edge on Presence tests made to persuade nobles, but you take a bane on Presence tests made to persuade common folk.",
+			"featuresByLevel": [
+				{
+					"level": 1,
+					"features": []
+				},
+				{
+					"level": 5,
+					"features": []
+				},
+				{
+					"level": 9,
+					"features": []
+				}
+			],
+			"imbuements": [],
+			"count": 0,
+			"customizationsByLevel": []
+		},
+		{
 			"id": "item-eyes-of-charming",
 			"name": "Eyes of Charming",
 			"description": "*From the Lost Adventures Vol 1 - 3d printed tabletop*\n\nThese crystal lenses fit over the eyes. They have 3 charges.",
@@ -396,41 +396,52 @@
 									"name": "Charm Person",
 									"description": "You focus your gaze through the Eyes of Charming, attempting to charm a creature.",
 									"type": {
-										"type": "Maneuver",
+										"usage": "Maneuver",
+										"free": false,
+										"trigger": "",
+										"time": "",
 										"qualifiers": ["Expend 1 charge"],
-										"free": false
+										"freeStrike": false
 									},
 									"keywords": ["Magic"],
 									"distance": [
 										{
 											"type": "Ranged",
 											"value": 6,
-											"value2": null,
-											"within": null,
-											"special": null
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
 										}
 									],
 									"target": "One creature you can see and share a common language with",
-									"cost": null,
+									"cost": 0,
+									"repeatable": false,
+									"minLevel": 1,
 									"sections": [
 										{
-											"type": "Roll",
-											"data": {
-												"powerRoll": {
-													"characteristic": ["Reason"],
-													"tier1": "I<0 the target is charmed (save ends)",
-													"tier2": "I<1 the target is charmed (save ends)",
-													"tier3": "I<2 the target is charmed (save ends)"
-												}
+											"type": "roll",
+											"roll": {
+												"characteristic": ["Reason"],
+												"bonus": 0,
+												"tier1": "I<0 the target is charmed (save ends)",
+												"tier2": "I<1 the target is charmed (save ends)",
+												"tier3": "I<2 the target is charmed (save ends)"
 											}
 										},
 										{
-											"type": "Text",
-											"data": {
-												"text": "A charmed creature treats the wearer of the eyes as their ally. The saving throw to resist this charm is harder by 1."
-											}
+											"type": "text",
+											"text": "A charmed creature treats the wearer of the eyes as their ally. The saving throw to resist this charm is harder by 1."
 										}
-									]
+									],
+									"preEffect": "",
+									"powerRoll": null,
+									"test": null,
+									"effect": "",
+									"strained": "",
+									"alternateEffects": [],
+									"spend": [],
+									"persistence": []
 								}
 							}
 						}
@@ -482,106 +493,46 @@
 									"name": "Summon Bear",
 									"description": "You speak the command word and throw the figurine, causing it to transform into a living bear.",
 									"type": {
-										"type": "Main",
+										"usage": "Main Action",
+										"free": false,
+										"trigger": "",
+										"time": "",
 										"qualifiers": [],
-										"free": false
+										"freeStrike": false
 									},
 									"keywords": ["Magic"],
 									"distance": [
 										{
 											"type": "Ranged",
 											"value": 12,
-											"value2": null,
-											"within": null,
-											"special": null
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
 										}
 									],
 									"target": "One unoccupied space within range",
-									"cost": null,
+									"cost": 0,
+									"repeatable": false,
+									"minLevel": 1,
 									"sections": [
 										{
-											"type": "Text",
-											"data": {
-												"text": "The figurine becomes a living bear in the target space. The bear is friendly to you and your companions, understands your languages, and obeys your spoken commands. If you issue no commands, the bear defends itself but takes no other actions. The bear acts as a follower while it exists. The bear exists for 1 minute (10 combat rounds), then reverts to its figurine form. It reverts early if it drops to 0 Stamina or if you use a main action to speak the command word again while touching it. Once used, the figurine can't be used again until the next dawn."
-											}
+											"type": "text",
+											"text": "The figurine becomes a living bear in the target space. The bear is friendly to you and your companions, understands your languages, and obeys your spoken commands. If you issue no commands, the bear defends itself but takes no other actions. The bear acts as a follower while it exists. The bear exists for 1 minute (10 combat rounds), then reverts to its figurine form. It reverts early if it drops to 0 Stamina or if you use a main action to speak the command word again while touching it. Once used, the figurine can't be used again until the next dawn."
 										}
-									]
+									],
+									"preEffect": "",
+									"powerRoll": null,
+									"test": null,
+									"effect": "",
+									"strained": "",
+									"alternateEffects": [],
+									"spend": [],
+									"persistence": []
 								}
 							}
 						}
 					]
-				},
-				{
-					"level": 5,
-					"features": []
-				},
-				{
-					"level": 9,
-					"features": []
-				}
-			],
-			"imbuements": [],
-			"count": 0,
-			"customizationsByLevel": []
-		},
-		{
-			"id": "item-iron-ring",
-			"name": "Iron Ring",
-			"description": "*From the Lost Adventures Vol 1 - 3d printed tabletop*\n\nThis ring depicts a bat upon a tree, the insignia of Dorian Morkoth's minor noble house. While nonmagical, wearing this ring grants advantage on Charisma (Persuasion) checks when dealing with nobles, but subjects the wearer to disadvantage on Charisma (Persuasion) checks when dealing with common folk.",
-			"type": "Trinket (1st echelon)",
-			"keywords": ["Ring"],
-			"crafting": {
-				"id": "item-iron-ring-crafting",
-				"name": "Craft Iron Ring",
-				"description": "Craft an Iron Ring.",
-				"itemPrerequisites": "An iron ring, knowledge of noble house insignias",
-				"source": "Texts or lore in Caelian",
-				"characteristic": ["Reason", "Presence"],
-				"goal": 100,
-				"isCustom": false,
-				"progress": null
-			},
-			"effect": "While wearing this ring, you gain an edge on Presence tests made to persuade nobles, but you take a bane on Presence tests made to persuade common folk.",
-			"featuresByLevel": [
-				{
-					"level": 1,
-					"features": []
-				},
-				{
-					"level": 5,
-					"features": []
-				},
-				{
-					"level": 9,
-					"features": []
-				}
-			],
-			"imbuements": [],
-			"count": 0,
-			"customizationsByLevel": []
-		},
-		{
-			"id": "item-gloves-of-climbing-and-swimming-community",
-			"name": "Gloves of Climbing and Swimming",
-			"description": "*From the Lost Adventures Vol 1 - 3d printed tabletop*\n\nThese supple leather gloves enhance the wearer's ability to climb and swim.",
-			"type": "Trinket (1st echelon)",
-			"keywords": ["Hands", "Magic"],
-			"crafting": {
-				"id": "item-gloves-of-climbing-and-swimming-community-crafting",
-				"name": "Craft Gloves of Climbing and Swimming",
-				"description": "Craft Gloves of Climbing and Swimming.",
-				"itemPrerequisites": "Leather gloves, essence of a mountain goat and a dolphin",
-				"source": "Texts or lore in Caelian",
-				"characteristic": ["Agility", "Might"],
-				"goal": 100,
-				"isCustom": false,
-				"progress": null
-			},
-			"effect": "While wearing these gloves, you gain the swim and climb speeds but no other benefits like water breathing or fighting while climbing.",
-			"featuresByLevel": [
-				{
-					"level": 1,
-					"features": []
 				},
 				{
 					"level": 5,
@@ -868,7 +819,7 @@
 							"type": "Ability Distance",
 							"data": {
 								"keywords": ["Magic", "Area"],
-								"value": 1,
+								"value": 2,
 								"valueFromController": null,
 								"valueCharacteristics": [],
 								"valueCharacteristicMultiplier": 1,
@@ -883,7 +834,7 @@
 							"type": "Ability Distance",
 							"data": {
 								"keywords": ["Psionic", "Area"],
-								"value": 1,
+								"value": 2,
 								"valueFromController": null,
 								"valueCharacteristics": [],
 								"valueCharacteristicMultiplier": 1,
@@ -910,7 +861,7 @@
 							"type": "Ability Distance",
 							"data": {
 								"keywords": ["Magic", "Area"],
-								"value": 1,
+								"value": 3,
 								"valueFromController": null,
 								"valueCharacteristics": [],
 								"valueCharacteristicMultiplier": 1,
@@ -925,7 +876,7 @@
 							"type": "Ability Distance",
 							"data": {
 								"keywords": ["Psionic", "Area"],
-								"value": 1,
+								"value": 3,
 								"valueFromController": null,
 								"valueCharacteristics": [],
 								"valueCharacteristicMultiplier": 1,
@@ -946,17 +897,7 @@
 			"description": "*From the Lost Adventures Vol 1 - 3d printed tabletop*\n\nA wand carved from spider silk and hardened resin, pulsing with arachnid energy.",
 			"type": "Leveled Implement",
 			"keywords": ["Implement", "Magic", "Psionic", "Wand"],
-			"crafting": {
-				"id": "item-web-of-forms-crafting",
-				"name": "Craft Web of Forms",
-				"description": "Craft a Web of Forms.",
-				"itemPrerequisites": "Spider silk from a giant spider, resin from a web tree",
-				"source": "Texts or lore in Caelian",
-				"characteristic": ["Reason", "Intuition"],
-				"goal": 450,
-				"isCustom": false,
-				"progress": null
-			},
+			"crafting": null,
 			"effect": "",
 			"featuresByLevel": [
 				{
@@ -964,23 +905,7 @@
 					"features": [
 						{
 							"id": "item-web-of-forms-1a",
-							"name": "",
-							"description": "",
-							"type": "Ability Damage",
-							"data": {
-								"keywords": ["Magic"],
-								"value": 1,
-								"valueFromController": null,
-								"valueCharacteristics": [],
-								"valueCharacteristicMultiplier": 1,
-								"valuePerLevel": 0,
-								"valuePerEchelon": 0,
-								"damageType": "Damage"
-							}
-						},
-						{
-							"id": "item-web-of-forms-1b",
-							"name": "",
+							"name": "+1 to Damage",
 							"description": "",
 							"type": "Ability Damage",
 							"data": {
@@ -995,89 +920,138 @@
 							}
 						},
 						{
-							"id": "item-web-of-forms-1c",
+							
+							"id": "item-web-of-forms-1b",
+							"name": "+1 to Damage",
+							"description": "",
+							"type": "Ability Damage",
+							"data": {
+								"keywords": [
+									"Magic"
+								],
+								"value": 1,
+								"valueFromController": null,
+								"valueCharacteristics": [],
+								"valueCharacteristicMultiplier": 1,
+								"valuePerLevel": 0,
+								"valuePerEchelon": 0,
+								"damageType": "Damage"
+							}
+						},
+						{
+							"id": "4H2j16mOf81MHABw",
 							"name": "Spider Stride",
-							"description": "You gain the ability to climb like a spider.",
+							"description": "",
 							"type": "Ability",
 							"data": {
 								"ability": {
-									"id": "item-web-of-forms-1c",
+									"id": "CwAAPVo00rhVk9ws",
 									"name": "Spider Stride",
-									"description": "You gain the ability to climb like a spider.",
+									"description": "",
 									"type": {
-										"type": "Maneuver",
+										"usage": "Maneuver",
+										"free": false,
+										"trigger": "",
+										"time": "",
 										"qualifiers": [],
-										"free": false
+										"freeStrike": false
 									},
-									"keywords": ["Magic"],
+									"keywords": [],
 									"distance": [
 										{
 											"type": "Self",
-											"value": null,
-											"value2": null,
-											"within": null,
-											"special": null
+											"value": 0,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
 										}
 									],
 									"target": "Self",
-									"cost": null,
+									"cost": 0,
+									"repeatable": false,
+									"minLevel": 1,
 									"sections": [
 										{
-											"type": "Text",
-											"data": {
-												"text": "You gain Spider Climb until the end of the encounter or willingly dismissed (no action required)."
-											}
+											"type": "text",
+											"text": "You gain Spider Climb until the end of the encounter or willingly dismissed (no action required).  You gain a climb speed and can climb on ceilings."
 										}
-									]
+									],
+									"preEffect": "",
+									"powerRoll": null,
+									"test": null,
+									"effect": "",
+									"strained": "",
+									"alternateEffects": [],
+									"spend": [],
+									"persistence": []
 								}
 							}
 						},
 						{
-							"id": "item-web-of-forms-1d",
-							"name": "Polymorph Giant Spider",
-							"description": "You transform a creature into a giant spider.",
+							"id": "lc8ly31IvQzVyzHW",
+							"name": "Spider Form",
+							"description": "",
 							"type": "Ability",
 							"data": {
 								"ability": {
-									"id": "item-web-of-forms-1d",
-									"name": "Polymorph Giant Spider",
-									"description": "You transform a creature into a giant spider.",
+									"id": "aY1A5aj3qlvhDi1L",
+									"name": "Spider Form",
+									"description": "",
 									"type": {
-										"type": "Main",
+										"usage": "Main Action",
+										"free": false,
+										"trigger": "",
+										"time": "",
 										"qualifiers": [],
-										"free": false
+										"freeStrike": false
 									},
-									"keywords": ["Strike", "Magic", "Psionic"],
+									"keywords": [
+										"Strike",
+										"Magic",
+										"Psionic"
+									],
 									"distance": [
 										{
 											"type": "Ranged",
 											"value": 10,
-											"value2": null,
-											"within": null,
-											"special": null
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
 										}
 									],
 									"target": "One creature",
 									"cost": 5,
+									"repeatable": false,
+									"minLevel": 1,
 									"sections": [
 										{
-											"type": "Roll",
-											"data": {
-												"powerRoll": {
-													"characteristic": ["Might", "Agility", "Reason", "Intuition", "Presence"],
-													"tier1": "The target takes 3 psychic damage",
-													"tier2": "The target takes 5 psychic damage",
-													"tier3": "The target is transformed into a giant spider (Save Ends)"
-												}
+											"type": "roll",
+											"roll": {
+												"characteristic": [
+													"Intuition",
+													"Presence"
+												],
+												"bonus": 0,
+												"tier1": "The target takes 3 psychic damage.",
+												"tier2": "The target takes 5 psychic damage.",
+												"tier3": "The target is transformed into a giant spider (Save Ends)."
 											}
 										},
 										{
-											"type": "Text",
-											"data": {
-												"text": "The target's game statistics are replaced by that of a Giant Spider. They can't talk but can understand languages they knew before transforming. All items are transformed with them and cannot be used until the transformation is reversed."
-											}
+											"type": "text",
+											"text": "Effect: The target's game statistics are replaced by that of a Giant Spider. They can't talk but can understand languages they knew before transforming. All items are transformed with them and cannot be used until the transformation is reversed."
 										}
-									]
+									],
+									"preEffect": "",
+									"powerRoll": null,
+									"test": null,
+									"effect": "",
+									"strained": "",
+									"alternateEffects": [],
+									"spend": [],
+									"persistence": []
 								}
 							}
 						}
@@ -1088,12 +1062,14 @@
 					"features": [
 						{
 							"id": "item-web-of-forms-5a",
-							"name": "",
+							"name": "+2 to Damage",
 							"description": "",
 							"type": "Ability Damage",
 							"data": {
-								"keywords": ["Magic"],
-								"value": 1,
+								"keywords": [
+									"Psionic"
+								],
+								"value": 2,
 								"valueFromController": null,
 								"valueCharacteristics": [],
 								"valueCharacteristicMultiplier": 1,
@@ -1103,13 +1079,15 @@
 							}
 						},
 						{
-							"id": "item-web-of-forms-5b",
-							"name": "",
+							"id": "PDMkylKww3aYek96",
+							"name": "+2 to Damage",
 							"description": "",
 							"type": "Ability Damage",
 							"data": {
-								"keywords": ["Psionic"],
-								"value": 1,
+								"keywords": [
+									"Magic"
+								],
+								"value": 2,
 								"valueFromController": null,
 								"valueCharacteristics": [],
 								"valueCharacteristicMultiplier": 1,
@@ -1121,86 +1099,123 @@
 						{
 							"id": "item-web-of-forms-5c",
 							"name": "Throw Arachnid",
-							"description": "You hurl a web-wrapped projectile at your enemies.",
+							"description": "",
 							"type": "Ability",
 							"data": {
 								"ability": {
-									"id": "item-web-of-forms-5c",
+									"id": "throw-arachnid-ability",
 									"name": "Throw Arachnid",
-									"description": "You hurl a web-wrapped projectile at your enemies.",
+									"description": "",
 									"type": {
-										"type": "Main",
+										"usage": "Main Action",
+										"free": false,
+										"trigger": "",
+										"time": "",
 										"qualifiers": [],
-										"free": false
+										"freeStrike": false
 									},
-									"keywords": ["Ranged", "Strike"],
+									"keywords": [
+										"Ranged",
+										"Strike"
+									],
 									"distance": [
 										{
 											"type": "Ranged",
 											"value": 10,
-											"value2": null,
-											"within": null,
-											"special": null
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
 										}
 									],
 									"target": "One or Two creatures",
 									"cost": 3,
+									"repeatable": false,
+									"minLevel": 5,
 									"sections": [
 										{
-											"type": "Roll",
-											"data": {
-												"powerRoll": {
-													"characteristic": ["Might", "Agility", "Reason", "Intuition", "Presence"],
-													"tier1": "7 Corruption Damage; The target is bleeding (EoT)",
-													"tier2": "9 Corruption Damage; The target is bleeding (Save Ends)",
-													"tier3": "12 Corruption Damage; The target is bleeding and weakened (Save Ends)"
-												}
+											"type": "roll",
+											"roll": {
+												"characteristic": [
+													"Highest"
+												],
+												"bonus": 0,
+												"tier1": "7 Corruption Damage; The target is bleeding (EoT)",
+												"tier2": "9 Corruption Damage; The target is bleeding (Save Ends)",
+												"tier3": "12 Corruption Damage; The target is bleeding and weakened (Save Ends)"
 											}
 										}
-									]
+									],
+									"preEffect": "",
+									"powerRoll": null,
+									"test": null,
+									"effect": "",
+									"strained": "",
+									"alternateEffects": [],
+									"spend": [],
+									"persistence": []
 								}
 							}
 						},
 						{
 							"id": "item-web-of-forms-5d",
 							"name": "Entangling Web",
-							"description": "You create a web that entangles your enemies.",
+							"description": "",
 							"type": "Ability",
 							"data": {
 								"ability": {
-									"id": "item-web-of-forms-5d",
+									"id": "entangling-web-ability",
 									"name": "Entangling Web",
-									"description": "You create a web that entangles your enemies.",
+									"description": "",
 									"type": {
-										"type": "Main",
+										"usage": "Main Action",
+										"free": false,
+										"trigger": "",
+										"time": "",
 										"qualifiers": [],
-										"free": false
+										"freeStrike": false
 									},
-									"keywords": ["Area", "Magic", "Psionic"],
+									"keywords": [
+										"Area",
+										"Magic",
+										"Psionic"
+									],
 									"distance": [
 										{
-											"type": "Burst",
+											"type": "Cube",
 											"value": 3,
-											"value2": null,
+											"value2": 0,
 											"within": 5,
-											"special": null
+											"special": "",
+											"qualifier": ""
 										}
 									],
 									"target": "Each enemy in burst",
 									"cost": 5,
+									"repeatable": false,
+									"minLevel": 5,
 									"sections": [
 										{
-											"type": "Roll",
-											"data": {
-												"powerRoll": {
-													"characteristic": ["Might", "Agility", "Reason", "Intuition", "Presence"],
-													"tier1": "M<weak slow (save ends)",
-													"tier2": "M<avg slow and restrained (EoT)",
-													"tier3": "M<strong slow and restrained (save ends)"
-												}
+											"type": "roll",
+											"roll": {
+												"characteristic": [
+													"Highest"
+												],
+												"bonus": 0,
+												"tier1": "M<weak slow (save ends)",
+												"tier2": "M<avg slow and restrained (EoT)",
+												"tier3": "M<strong slow and restrained (save ends)"
 											}
 										}
-									]
+									],
+									"preEffect": "",
+									"powerRoll": null,
+									"test": null,
+									"effect": "",
+									"strained": "",
+									"alternateEffects": [],
+									"spend": [],
+									"persistence": []
 								}
 							}
 						}
@@ -1244,87 +1259,120 @@
 						{
 							"id": "item-web-of-forms-9c",
 							"name": "Web Slinger Leap",
-							"description": "You cast a web and teleport to your destination.",
+							"description": "",
 							"type": "Ability",
 							"data": {
 								"ability": {
-									"id": "item-web-of-forms-9c",
+									"id": "web-slinger-leap-ability",
 									"name": "Web Slinger Leap",
-									"description": "You cast a web and teleport to your destination.",
+									"description": "",
 									"type": {
-										"type": "Move",
+										"usage": "Move Action",
+										"free": false,
+										"trigger": "",
+										"time": "",
 										"qualifiers": [],
-										"free": false
+										"freeStrike": false
 									},
-									"keywords": ["Psionic"],
+									"keywords": [
+										"Psionic",
+										"Teleport"
+									],
 									"distance": [
 										{
 											"type": "Self",
-											"value": null,
-											"value2": null,
-											"within": null,
-											"special": null
+											"value": 0,
+											"value2": 0,
+											"within": 15,
+											"special": "",
+											"qualifier": ""
 										}
 									],
 									"target": "Self",
 									"cost": 2,
+									"repeatable": false,
+									"minLevel": 9,
 									"sections": [
 										{
-											"type": "Text",
-											"data": {
-												"text": "You cast a string of web to a solid surface within 15 squares and teleport to the destination. If the surface was vertical you are climbing, if a ceiling you fall unless you can climb on ceilings. Pay 4HR instead to use this as a free maneuver once per turn."
-											}
+											"type": "text",
+											"text": "You cast a string of web to a solid surface within 15 squares and teleport to the destination. If the surface was vertical you are climbing, if a ceiling you fall unless you can climb on ceilings. Pay 4HR instead to use this as a free maneuver once per turn."
 										}
-									]
+									],
+									"preEffect": "",
+									"powerRoll": null,
+									"test": null,
+									"effect": "",
+									"strained": "",
+									"alternateEffects": [],
+									"spend": [],
+									"persistence": []
 								}
 							}
 						},
 						{
 							"id": "item-web-of-forms-9d",
 							"name": "Venomous Weakness",
-							"description": "You strike with venomous energy that weakens your target.",
+							"description": "",
 							"type": "Ability",
 							"data": {
 								"ability": {
-									"id": "item-web-of-forms-9d",
+									"id": "venomous-weakness-ability",
 									"name": "Venomous Weakness",
-									"description": "You strike with venomous energy that weakens your target.",
+									"description": "",
 									"type": {
-										"type": "Main",
+										"usage": "Main Action",
+										"free": false,
+										"trigger": "",
+										"time": "",
 										"qualifiers": [],
-										"free": false
+										"freeStrike": false
 									},
-									"keywords": ["Ranged", "Magic", "Psionic", "Strike"],
+									"keywords": [
+										"Ranged",
+										"Magic",
+										"Psionic",
+										"Strike"
+									],
 									"distance": [
 										{
 											"type": "Ranged",
 											"value": 10,
-											"value2": null,
-											"within": null,
-											"special": null
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
 										}
 									],
 									"target": "One creature",
 									"cost": 7,
+									"repeatable": false,
+									"minLevel": 9,
 									"sections": [
 										{
-											"type": "Roll",
-											"data": {
-												"powerRoll": {
-													"characteristic": ["Might", "Agility", "Reason", "Intuition", "Presence"],
-													"tier1": "17 Poison Damage; R<weak weakened (save ends)",
-													"tier2": "22 Poison Damage; R<avg weakened (save ends)",
-													"tier3": "27 Poison Damage; R<strong weakened and dazed (save ends)"
-												}
+											"type": "roll",
+											"roll": {
+												"characteristic": [
+													"Highest"
+												],
+												"bonus": 0,
+												"tier1": "17 Poison Damage; R<weak weakened (save ends)",
+												"tier2": "22 Poison Damage; R<avg weakened (save ends)",
+												"tier3": "27 Poison Damage; R<strong weakened and dazed (save ends)"
 											}
 										},
 										{
-											"type": "Text",
-											"data": {
-												"text": "If the target is weakened they take a bane on all power rolls targeting any spider creatures until the effect ends."
-											}
+											"type": "text",
+											"text": "Effect: If the target is weakened they take a bane on all power rolls targeting any spider creatures until the effect ends."
 										}
-									]
+									],
+									"preEffect": "",
+									"powerRoll": null,
+									"test": null,
+									"effect": "",
+									"strained": "",
+									"alternateEffects": [],
+									"spend": [],
+									"persistence": []
 								}
 							}
 						}
